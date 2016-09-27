@@ -2,16 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  template: `<div>
-
-<app-simple-form></app-simple-form>
-<app-simple-form></app-simple-form>
-<app-simple-form></app-simple-form>
-<app-simple-form></app-simple-form>
-<app-simple-form></app-simple-form>
-<app-simple-form></app-simple-form>
-
-</div>`
+  template: `<h1>{{title}}</h1>`
 })
 export class AppComponent {
   title = `Let's get started!`;
